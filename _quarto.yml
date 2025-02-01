@@ -9,6 +9,8 @@ website:
       menu:
       - text: "Hands-on Exercise 0"
         href: Hands-on_Ex/Hands-on_Ex00.html
+      - text: "Hands-on Exercise 1"
+        href: Hands-on_Ex/Hands-on_Ex01.html
     - text: "In-class Exercise"
       menu:
       - text: "In-class Exercise 1"
@@ -16,7 +18,7 @@ website:
     - text: "Take-home Exercise"
       menu:
       - text: "Take-home Exercise 1"
-        href: Take-home_Ex1.html
+        href: Take-home_Ex/Take-home_Ex1/Take-home_Ex1.html
     right:
       - href: index.qmd
         text: Home

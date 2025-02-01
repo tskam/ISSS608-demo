@@ -45,12 +45,10 @@ popdata_long <- popdata_fat %>%
 write_rds(popdata_long, "rds/popdata_long.rds")
 ```
 
-
 ```{r}
 #| echo: FALSE
 popdata_long <- read_rds("rds/popdata_long.rds")
 ```
-
 
 ## Working with dplyr
 
@@ -88,6 +86,3 @@ realis2019_end <- realis2019 %>%
   filter(`Type of Sale` == "New Sale") %>%
   filter(`Unit Price ($ psm)` <= 13000)
 ```
-
-
-
